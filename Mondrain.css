@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: darkgray;
+  display: flex;
+  padding: 100px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.shape {
+  flex-grow: 1;
+  background-color: white;
+  min-width: 50px;
+  min-height: 50px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px 0px black;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+.double {
+  flex-grow: 2;
+}
+
+.triple {
+  flex-grow: 3;
+}
